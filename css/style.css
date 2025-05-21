@@ -4,20 +4,47 @@ body {
     background-color: #fff;
 }
 
+.container {
+    max-width: 1158px;
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
 ul,
 ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 /* HEADER */
 
 .header {
+    display: block;
 }
 .header-nav {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .nav-logo {
@@ -76,6 +103,8 @@ a {
 
 .hero {
     background-color: #2e2f42;
+
+    text-align: center;
 }
 
 .hero-title {
@@ -85,6 +114,10 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    padding-top: 188px;
+    margin-bottom: 48px;
+    max-width: 496px;
+    display: inline-block;
 }
 
 .hero-btn {
@@ -98,6 +131,10 @@ a {
     cursor: pointer;
 }
 
+.hero-btn-block {
+    padding-bottom: 188px;
+}
+
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: #404bbf;
@@ -108,6 +145,8 @@ a {
 .advantages {
 }
 .advantages-list {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .advantages-list-item {
 }
@@ -118,6 +157,7 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-bottom: 8px;
 }
 
 .advantages-list-text {
@@ -141,9 +181,12 @@ a {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    padding-top: 120px;
+    padding-bottom: 70px;
 }
 
 .team-list {
+    padding-bottom: 120px;
 }
 
 .team-list-item {
@@ -151,6 +194,10 @@ a {
 }
 
 .team-list-image {
+}
+
+.team-list-block {
+    padding: 32px 68px;
 }
 
 .team-list-title {
@@ -182,6 +229,8 @@ a {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 
 .portfolio-list {
@@ -191,12 +240,19 @@ a {
 .portfolio-list-image {
 }
 
+.portfolio-list-block {
+    padding-top: 32px;
+    padding-bottom: 64px;
+    padding-left: 16px;
+}
+
 .portfolio-list-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-bottom: 8px;
 }
 
 .portfolio-list-text {
@@ -210,8 +266,12 @@ a {
 .footer {
     background-color: #2e2f42;
 }
+.footer-logo-box {
+    padding-top: 100px;
+}
 
 .footer-logo {
+    display: block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -219,6 +279,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-bottom: 16px;
 }
 
 .footer-logo .accent {
@@ -231,4 +292,6 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    padding-bottom: 100px;
+    max-width: 264px;
 }
