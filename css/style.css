@@ -6,7 +6,7 @@ body {
 
 .container {
     max-width: 1158px;
-    padding: 0 auto;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
@@ -42,9 +42,15 @@ img {
 .header {
     display: block;
 }
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
 .header-nav {
     padding-top: 24px;
     padding-bottom: 24px;
+    display: flex;
 }
 
 .nav-logo {
@@ -55,6 +61,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .nav-logo .accent {
@@ -62,6 +69,8 @@ img {
 }
 
 .nav-menu-list {
+    display: flex;
+    gap: 40px;
 }
 .nav-menu-item {
 }
@@ -81,8 +90,11 @@ img {
 
 .header-address {
     font-style: normal;
+    margin-left: auto;
 }
 .adress-menu-list {
+    display: flex;
+    gap: 40px;
 }
 .adress-menu-item {
 }
@@ -129,6 +141,10 @@ img {
     color: #fff;
     background-color: #4d5ae5;
     cursor: pointer;
+    border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 169px;
+    border: 0;
 }
 
 .hero-btn-block {
@@ -144,11 +160,15 @@ img {
 
 .advantages {
 }
+
 .advantages-list {
+    display: flex;
+    justify-content: space-between;
     padding-top: 120px;
     padding-bottom: 120px;
 }
 .advantages-list-item {
+    width: calc((100% - 24px * 3) / 4);
 }
 
 .advantages-list-subtitle {
@@ -186,10 +206,17 @@ img {
 }
 
 .team-list {
+    display: flex;
+    justify-content: space-between;
     padding-bottom: 120px;
 }
 
 .team-list-item {
+    width: calc((100% - 24px * 3) / 4);
+    background-color: #fff;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+        0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background-color: #fff;
 }
 
@@ -197,7 +224,7 @@ img {
 }
 
 .team-list-block {
-    padding: 32px 68px;
+    padding: 32px 49px;
 }
 
 .team-list-title {
@@ -207,6 +234,7 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .team-list-text {
@@ -234,16 +262,25 @@ img {
 }
 
 .portfolio-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    padding-bottom: 120px;
 }
 .portfolio-list-item {
+    width: calc((100% - 24px * 2) / 3);
 }
 .portfolio-list-image {
 }
 
 .portfolio-list-block {
     padding-top: 32px;
-    padding-bottom: 64px;
+    padding-bottom: 32px;
     padding-left: 16px;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
 }
 
 .portfolio-list-subtitle {
