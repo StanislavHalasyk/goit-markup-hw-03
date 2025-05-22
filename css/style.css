@@ -86,15 +86,17 @@ img {
 
 .nav-logo .accent {
     color: #2e2f42;
+
+    padding: 24px 0;
 }
 
 .nav-menu-list {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 24px 0;
 }
 .nav-menu-item {
+    padding: 24px 0;
 }
 
 .nav-menu-link {
@@ -118,9 +120,9 @@ img {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 24px 0;
 }
 .adress-menu-item {
+    padding: 24px 0;
 }
 
 .adress-menu-link {
