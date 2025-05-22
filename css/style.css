@@ -72,6 +72,10 @@ img {
     align-items: center;
 }
 
+.nav-logo-block {
+    padding: 24px 0;
+}
+
 .nav-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -81,13 +85,10 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
-    padding: 24px 0;
 }
 
 .nav-logo .accent {
     color: #2e2f42;
-
-    padding: 24px 0;
 }
 
 .nav-menu-list {
@@ -96,7 +97,6 @@ img {
     gap: 40px;
 }
 .nav-menu-item {
-    padding: 24px 0;
 }
 
 .nav-menu-link {
@@ -122,7 +122,6 @@ img {
     gap: 40px;
 }
 .adress-menu-item {
-    padding: 24px 0;
 }
 
 .adress-menu-link {
