@@ -68,7 +68,6 @@ img {
     align-items: center;
 }
 .header-nav {
-    padding: 24px 0 24px;
     display: flex;
     align-items: center;
 }
@@ -82,6 +81,7 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+    padding: 24px 0;
 }
 
 .nav-logo .accent {
@@ -92,6 +92,7 @@ img {
     display: flex;
     align-items: center;
     gap: 40px;
+    padding: 24px 0;
 }
 .nav-menu-item {
 }
@@ -117,6 +118,7 @@ img {
     display: flex;
     align-items: center;
     gap: 40px;
+    padding: 24px 0;
 }
 .adress-menu-item {
 }
@@ -188,10 +190,10 @@ img {
 .advantages-list {
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
 .advantages-list-item {
     width: calc((100% - 24px * 3) / 4);
-    gap: 24px;
 }
 
 .advantages-list-subtitle {
@@ -230,11 +232,11 @@ img {
 .team-list {
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
 
 .team-list-item {
     width: calc((100% - 24px * 3) / 4);
-    gap: 24px;
     background-color: #fff;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
